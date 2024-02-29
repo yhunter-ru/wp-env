@@ -1,0 +1,10 @@
+/node_modules
+/vendor
+!/themes
+/themes/*
+/owl
+# !/themes/twentytwentyone/
+package-lock.json
+composer.lock
+style.css.map
+.DS_Store

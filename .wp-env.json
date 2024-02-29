@@ -1,0 +1,27 @@
+{
+    "core": "WordPress/WordPress",
+    "plugins": [
+    ],
+    "mappings": {
+        "wp-content/plugins": "./plugins"
+        "wp-content/uploads": "./uploads"
+    },
+    "env": {
+        "development": {
+            "themes": [
+                "./owl/build/wp-content/themes/owl"
+            ]
+        },
+        "tests": {
+            "port": 8898
+        }
+    },
+    "port": 8899,
+    "config": {
+        "FS_METHOD": "direct",
+        "WP_UPLOAD_MAX_FILESIZE": "20M",
+        "WP_ALLOW_MULTISITE": "false",
+        "WP_ENVIRONMENT_TYPE": "global",
+        "WP_DEBUG_DISPLAY": false
+    }
+}
