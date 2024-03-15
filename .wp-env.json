@@ -3,7 +3,7 @@
     "plugins": [
     ],
     "mappings": {
-        "wp-content/plugins": "./plugins"
+        "wp-content/plugins": "./plugins",
         "wp-content/uploads": "./uploads"
     },
     "env": {
